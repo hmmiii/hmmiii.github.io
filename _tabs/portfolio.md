@@ -1,10 +1,10 @@
 ---
 # the default layout is 'page'
-icon: fas fa-info-circle
-order: 4
+icon: fa-solid fa-file
+order: 5
 ---
 
-> 소개는 준비중입니다!
+> 포트폴리오는 준비중입니다!
 {: .prompt-tip }
 
 <script src="https://utteranc.es/client.js"
