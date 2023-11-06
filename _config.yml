@@ -16,10 +16,10 @@ timezone: Asia/Seoul
 
 title: devHmmi # the main title
 
-tagline: A DevHmmi's blog # it will display as the sub-title
+tagline: 백엔드 개발자 김철준입니다. # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-  A DevHmmi's blog
+  백엔드 개발자 김철준입니다.
 
 # Fill in the protocol & hostname for your site.
 # e.g. 'https://username.github.io', note that it does not end with a '/'.
