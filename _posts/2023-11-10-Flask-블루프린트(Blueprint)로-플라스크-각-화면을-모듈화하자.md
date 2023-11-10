@@ -19,7 +19,6 @@ Project
 ├── static
 └── templates
     └── index.html
-
 ```
 
 원래 강의에서 배운 대로라면 이런 식의 디렉토리 구조를 가진다. 템플릿 html파일은 각자 작업한다고 해도, app.py에 많은 로직이 들어 있기 때문에 문제가 발생할 것 같아 각 화면을 모듈화 할 방법이 없을까 고민하다가 플라스크에 블루프린트라는 기능이 있다는 것을 알게됐다.
@@ -29,6 +28,7 @@ Project
 우선 블루프린트를 사용하면 디렉토리 구조를 이렇게 변경할 수 있다.
 
 ```
+Project
 ├── app
 │   ├── __init__.py
 │   ├── database.db
@@ -44,7 +44,6 @@ Project
     ├── footer.html
     ├── header.html
     └── index.html
-
 ```
 
 아직 프로젝트에 들어가지 않아, 로그인과 메인페이지만 있다는 가정 하에 디렉토리를 나눠두었다. 이렇게 하면 메인페이지 작업자와 로그인페이지 작업자는 각각의 파일에서 작업이 가능하다.
@@ -80,7 +79,6 @@ def home():
         'title': '미니 루틴'
     }
     return render_template('index.html', data=context)
-
 ```
 
 ### app/models.py
