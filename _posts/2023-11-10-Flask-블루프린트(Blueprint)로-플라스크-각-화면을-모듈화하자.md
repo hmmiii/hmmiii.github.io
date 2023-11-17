@@ -3,7 +3,7 @@ title: Flask 블루프린트(Blueprint)로 플라스크 각 화면을 모듈화�
 author: hmmi
 date: 2023-11-10 16:50
 categories: [project]
-tags: [project]
+tags: [project,github,git,미니루틴]
 pin: true
 toc: true
 toc_sticky: true
