@@ -1,5 +1,5 @@
 ---
-title: Java Hello Wrold!
+title: Java Hello World!
 author: hmmi
 date: 2023-11-21 16:11
 categories: [개발 언어,Java]
