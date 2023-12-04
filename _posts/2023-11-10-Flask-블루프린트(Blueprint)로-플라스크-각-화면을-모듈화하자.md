@@ -2,8 +2,8 @@
 title: Flask 블루프린트(Blueprint)로 플라스크 각 화면을 모듈화하자
 author: hmmi
 date: 2023-11-10 16:50
-categories: [라이브러리,Flask]
-tags: [project,Flask,미니루틴,항해99,Python,라이브러리]
+categories: [기술스택,Flask]
+tags: [project,Flask,미니루틴,항해99,Python,기술스택]
 pin: true
 toc: true
 toc_sticky: true
